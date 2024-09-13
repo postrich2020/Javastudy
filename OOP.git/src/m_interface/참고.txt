@@ -1,0 +1,23 @@
+[class midifier]
+
+__1__ class A{
+
+	__2__ int A;
+	__3__ A(){}
+	__4__ void A(){}
+	}
+	
+	[1] public / final / abstract 
+	[2] public / private / protected / static / final
+	[3] public / private / protected
+	[4] public / private / protected / static / final / abstract
+	
+	================================
+	
+	[ interface ]//생성자 함수를 갖지 못함.
+	
+	interface B{
+		[ public static final 의 기능이 자동 부여됨] int B;  //상수
+		//생성자 없음
+		[public abstract 기능이 자동 부여됨] void B();
+	}
